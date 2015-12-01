@@ -1,0 +1,64 @@
+\begin{thebibliography}{10}
+
+\bibitem{aaronsonquantum}
+Scott Aaronson.
+\newblock Quantum machine learning algorithms: Read the fine print.
+
+\bibitem{aerts2013quantum}
+Diederik Aerts, Jan Broekaert, Sandro Sozzo, and Tomas Veloz.
+\newblock The quantum challenge in concept theory and natural language
+  processing.
+\newblock {\em arXiv preprint arXiv:1306.2838}, 2013.
+
+\bibitem{aertsquantum}
+Diederik Aerts, Sandro Sozzo, and Tomas Veloz.
+\newblock Quantum cognition: History and new perspectives.
+\newblock In {\em Book of Abstracts}, page~1.
+
+\bibitem{busemeyer2012quantum}
+Jerome~R Busemeyer and Peter~D Bruza.
+\newblock {\em Quantum models of cognition and decision}.
+\newblock Cambridge University Press, 2012.
+
+\bibitem{kartsaklis2014study}
+Dimitri Kartsaklis and Mehrnoosh Sadrzadeh.
+\newblock A study of entanglement in a categorical framework of natural
+  language.
+\newblock {\em arXiv preprint arXiv:1405.2874}, 2014.
+
+\bibitem{lloyd2013quantum}
+Seth Lloyd, Masoud Mohseni, and Patrick Rebentrost.
+\newblock Quantum algorithms for supervised and unsupervised machine learning.
+\newblock {\em arXiv preprint arXiv:1307.0411}, 2013.
+
+\bibitem{mitchell1997machine}
+Tom~M Mitchell.
+\newblock Machine learning. wcb, 1997.
+
+\bibitem{rebentrost2014quantum}
+Patrick Rebentrost, Masoud Mohseni, and Seth Lloyd.
+\newblock Quantum support vector machine for big data classification.
+\newblock {\em Physical review letters}, 113(13):130503, 2014.
+
+\bibitem{schuld2015introduction}
+Maria Schuld, Ilya Sinayskiy, and Francesco Petruccione.
+\newblock An introduction to quantum machine learning.
+\newblock {\em Contemporary Physics}, 56(2):172--185, 2015.
+
+\bibitem{wiebe2015quantum}
+Nathan Wiebe, Ashish Kapoor, Christopher Granade, and Krysta~M Svore.
+\newblock Quantum inspired training for boltzmann machines.
+\newblock {\em arXiv preprint arXiv:1507.02642}, 2015.
+
+\bibitem{wiebe2014quantum_b}
+Nathan Wiebe, Ashish Kapoor, and Krysta Svore.
+\newblock Quantum algorithms for nearest-neighbor methods for supervised and
+  unsupervised learning.
+\newblock {\em arXiv preprint arXiv:1401.2142}, 2014.
+
+\bibitem{wiebe2014quantum_a}
+Nathan Wiebe, Ashish Kapoor, and Krysta~M Svore.
+\newblock Quantum deep learning.
+\newblock {\em arXiv preprint arXiv:1412.3489}, 2014.
+
+\end{thebibliography}

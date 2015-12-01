@@ -1,0 +1,80 @@
+\documentclass[11pt]{article}
+
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage[margin=1in]{geometry}
+\usepackage[colorlinks]{hyperref}
+
+\newcommand{\C}{{\mathbb{C}}}
+\newcommand{\F}{{\mathbb{F}}}
+\newcommand{\R}{{\mathbb{R}}}
+\newcommand{\Z}{{\mathbb{Z}}}
+
+\newcommand{\ket}[1]{|{#1}\rangle}
+\newcommand{\bra}[1]{\langle{#1}|}
+\newcommand{\braket}[2]{\<{#1}|{#2}\>}
+\newcommand{\norm}[1]{\|{#1}\|}
+\newcommand{\Norm}[1]{\left\|{#1}\right\|}
+
+\newcommand{\eq}[1]{(\ref{eq:#1})}
+\renewcommand{\sec}[1]{Section~\ref{sec:#1}}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{Quantum Machine Learning and Quantum Cognitive Modeling}
+
+\author{Peratham Wiriyathammabhum \\
+University of Maryland}
+
+\date{\today}
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{abstract}
+I would like to explore the application of quantum information to machine learning with a focus on cognition in artificial intelligence and decision science. I will look into both ends of quantum information oriented and quantum cognition oriented literatures. I will review quantum machine learning algorithms as well as quantum cognitive modeling methods and compare both ends.
+\end{abstract}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Proposal}
+\label{sec:proposal}
+Quantum computing uses the power of quantum mechanics to create a more powerful next generation computer. Quantum computers can solve problems a lot faster in runtime complexity. However, how well a quantum computer can benefit to other applications is an interesting question. Machine learning is a field that consists of algorithms that improve automatically through experiences \cite{mitchell1997machine}. Quantum machine learning \cite{aaronsonquantum, wiebe2015quantum, wiebe2014quantum_a, wiebe2014quantum_b, rebentrost2014quantum, schuld2015introduction,lloyd2013quantum} uses advancements in quantum information to reduce time and space complexity in training phase which may improve runtime or accuracy or both. By using machine learning, we can shred lights into solving artificial intelligence tasks which try to model human behavior or cognition. Quantum cognition \cite{busemeyer2012quantum, aertsquantum} tries to use the power of quantum mechanics to create a more powerful next generation algorithms that also try to solve artificial intelligence tasks like classification \cite{busemeyer2012quantum} or natural language processing \cite{aerts2013quantum,  kartsaklis2014study} by cognitive models.  In order to create more intelligent machine, quantum cognition algorithms try to capture more patterns in the data and represent more behavior in human decision and cognition. Quantum machine learning can be viewed as conventional concept models with new training schemes while quantum cognition can be described as new concept models with conventional training schemes which depict the two extremes of quantum information for artificial intelligence. 
+
+% Quantum sensors (cameras) may be needed.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section{Another sample section}
+%\label{sec:sample}
+%
+%Here is a sample equation:
+%\begin{equation}
+%  X = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}
+%\label{eq:sigmax}
+%\end{equation}
+%We can now refer to this as \eq{sigmax}.
+%
+%Aligned equations can be produced as follows:
+%\begin{align}
+%  \ket{\beta_{00}} &= \frac{1}{\sqrt2} (\ket{00}+\ket{11}) \\
+%  \ket{\beta_{01}} &= \frac{1}{\sqrt2} (\ket{01}+\ket{10}) \\
+%  \ket{\beta_{10}} &= \frac{1}{\sqrt2} (\ket{00}-\ket{11}) \\
+%  \ket{\beta_{11}} &= \frac{1}{\sqrt2} (\ket{01}-\ket{10}).
+%\end{align}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section*{Acknowledgments}
+%
+%If you have discussions with your classmates about your chosen topic, you can thank them here.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\bibliographystyle{plain}
+%\nocite{*}
+\bibliography{peratham_project}
+
+%\begin{thebibliography}{9}
+%\bibitem{Sho97}
+%P. W. Shor, \emph{Polynomial-time algorithms for prime factorization and discrete logarithms on a quantum computer}, SIAM Journal on Computing 26, 1484--1509 (1997).
+%\end{thebibliography}
+
+\end{document}
